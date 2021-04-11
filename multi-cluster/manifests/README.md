@@ -10,7 +10,7 @@ metadata:
   name: manifests
   namespace: us-east-clusters
 spec:
-  repo: https://github.ibm.com/NIRRO/fleet-test-repo
+  repo: https://github.com/nirrozenbaum/fleet-test-repo
   paths:
   - multi-cluster/manifests
 ```
