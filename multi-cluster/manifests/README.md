@@ -13,5 +13,9 @@ spec:
   repo: https://github.com/nirrozenbaum/fleet-test-repo
   paths:
   - multi-cluster/manifests
+  targets:
+  - name: dev
+    clusterSelector:
+      matchLabels:
+        env: dev
 ```
-
